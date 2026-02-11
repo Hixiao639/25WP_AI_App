@@ -21,3 +21,10 @@
    ```bash
    streamlit run app.py
    ```
+
+## 模型训练过程详解
+training/
+1. 下载(raw_data/.)：单个数字(Github私人库)或符号(Kaggle)的PNG集
+2. 数据集准备(```generate_data.py```)：将数字符号粘贴到白板上
+3. 训练模型(```train_yolo.py```): 得到```best.pt```模型
+4. 检验模型效果(```predict_logic.py```)
