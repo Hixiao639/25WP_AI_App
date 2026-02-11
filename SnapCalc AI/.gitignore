@@ -1,0 +1,16 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Data
+training/raw_data/
+.DS_Store
+
+# Models - Ignore large model files if desired, but user structure includes 'digit_model.h5' inside 'models/' so maybe keep it or ignore it? 
+# Usually trained models are large, but for this structure request, I'll just ignore the raw data as requested.
